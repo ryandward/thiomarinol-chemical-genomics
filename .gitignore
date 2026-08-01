@@ -1,0 +1,11 @@
+# R / RStudio session state
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# OS / editor
+.DS_Store
+*~
+.~lock.*#

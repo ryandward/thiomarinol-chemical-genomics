@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Thiomarinol chemical genomics: figure code and data"
+abstract: >-
+  Analysis code and source data for Figures 2 and 3 of Johnson et al. 2021, a CRISPRi
+  chemical-genomics screen of Bacillus subtilis essential genes identifying
+  isoleucyl-tRNA synthetase as the target of the hybrid antibiotic thiomarinol.
+authors:
+  - family-names: Ward
+    given-names: Ryan D.
+    orcid: "https://orcid.org/0000-0001-9537-2461"
+license: MIT
+repository-code: "https://github.com/ryandward/thiomarinol-chemical-genomics"
+keywords:
+  - CRISPRi
+  - chemical genomics
+  - Bacillus subtilis
+  - thiomarinol
+  - isoleucyl-tRNA synthetase
+preferred-citation:
+  type: article
+  title: "Inhibition of Isoleucyl-tRNA Synthetase by the Hybrid Antibiotic Thiomarinol"
+  authors:
+    - family-names: Johnson
+      given-names: Rachel A.
+    - family-names: Chan
+      given-names: Andrew N.
+    - family-names: Ward
+      given-names: Ryan D.
+    - family-names: McGlade
+      given-names: Caylie A.
+    - family-names: Hatfield
+      given-names: Breanne M.
+    - family-names: Peters
+      given-names: Jason M.
+    - family-names: Li
+      given-names: Bo
+  journal: "Journal of the American Chemical Society"
+  volume: 143
+  issue: 31
+  start: 12003
+  end: 12013
+  year: 2021
+  doi: "10.1021/jacs.1c02622"
+  url: "https://doi.org/10.1021/jacs.1c02622"
+  identifiers:
+    - type: other
+      value: "PMID:34342433"
+    - type: other
+      value: "PMCID:PMC8479755"
