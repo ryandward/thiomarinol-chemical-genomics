@@ -47,8 +47,10 @@ The same table is published as Data Set 1 of the paper's Supplemental Datasets, 
 different row labels. Prefer that version if you are starting fresh, since it records the numeric
 concentration for each row where the labels here keep only the dose letter.
 
-Most of it is not new to the 2021 paper. 93 of the 104 profiles, covering 34 of the 38 conditions,
-are the *B. subtilis* chemical-genomics screen of:
+The comparison panel is the published reference compendium, as the paper states: the four compounds
+of this study were screened alongside "31 other growth perturbing chemicals that have published
+chemical-gene interactions". Concretely, 93 of the 104 profiles, covering 34 of the 38 conditions,
+come from the *B. subtilis* chemical-genomics screen of:
 
 > Peters JM, Colavin A, Shi H, Czarny TL, Larson MH, Wong S, Hawkins JS, Lu CHS, Koo B-M,
 > Marta E, Shiver AL, Whitehead EH, Weissman JS, Brown ED, Qi LS, Huang KC, Gross CA.
@@ -59,6 +61,9 @@ published there as Table S2. Those 93 rows match Table S2 to better than 1e-6 ac
 the two tables name identically. The remaining 11 profiles are the four compounds this study
 contributed: holomycin, thiolutin and gliotoxin at three concentrations each, and PAC-holo at two.
 That is what the "w_Bo_chemicals" in the filename refers to.
+
+Both figures are new to the 2021 paper. Mupirocin's profile is drawn from the reference set, which
+is what makes it a benchmark rather than a fresh measurement to be compared against.
 
 Twenty guides are named differently between the two tables, for example `acpS50_1` and `acpS50_2`
 in Table S2 against `acpS` and `acpS48` here, and `ftsZ226` and `ftsZ1134` against `ftsZ` and
