@@ -47,6 +47,23 @@ The same table is published as Data Set 1 of the paper's Supplemental Datasets, 
 different row labels. Prefer that version if you are starting fresh, since it records the numeric
 concentration for each row where the labels here keep only the dose letter.
 
+Most of it is not new to the 2021 paper. 93 of the 104 profiles, covering 34 of the 38 conditions,
+are the *B. subtilis* chemical-genomics screen of:
+
+> Peters JM, Colavin A, Shi H, Czarny TL, Larson MH, Wong S, Hawkins JS, Lu CHS, Koo B-M,
+> Marta E, Shiver AL, Whitehead EH, Weissman JS, Brown ED, Qi LS, Huang KC, Gross CA.
+> *A Comprehensive, CRISPR-based Functional Analysis of Essential Genes in Bacteria.*
+> **Cell** 165(6):1493-1506 (2016). doi: [10.1016/j.cell.2016.05.003](https://doi.org/10.1016/j.cell.2016.05.003)
+
+published there as Table S2. Those 93 rows match Table S2 to better than 1e-6 across the 280 guides
+the two tables name identically. The remaining 11 profiles are the four compounds this study
+contributed: holomycin, thiolutin and gliotoxin at three concentrations each, and PAC-holo at two.
+That is what the "w_Bo_chemicals" in the filename refers to.
+
+Twenty guides are named differently between the two tables, for example `acpS50_1` and `acpS50_2`
+in Table S2 against `acpS` and `acpS48` here, and `ftsZ226` and `ftsZ1134` against `ftsZ` and
+`ftsZ1132`. Cross-reference by value rather than by name.
+
 Raw S-scores run from -16.25 to 14.49, with four missing values. After taking medians over
 concentration the range narrows to -9.05 to 9.52.
 
@@ -62,7 +79,8 @@ full, `mupirocin [A] 0.01` through `mupirocin [G] 0.07` in ug/mL.
 
 The median behind both figures is taken over a chemical's concentration series. S-scores arrive
 already averaged over biological replicates, done upstream when they were computed (Peters et al.
-2016); neither those replicates nor the colony-size measurements behind them are in this repository.
+2016, above); neither those replicates nor the colony-size measurements behind them are in this
+repository.
 
 Dose coverage is uneven and worth checking before relying on any single condition. Trimethoprim has
 10 concentrations and mupirocin 7, but PAC-holo has 2, and six conditions were assayed at a single
@@ -104,5 +122,6 @@ that happens.
 
 ## Licence
 
-Code in `R/` is MIT licensed (`LICENSE`). The data accompanies the published paper; if you use it,
-cite the paper above.
+Code in `R/` is MIT licensed (`LICENSE`). The data accompanies the published papers; if you use it,
+cite Johnson et al. 2021, and cite Peters et al. 2016 as well for any of the 34 conditions that
+originate there.

@@ -17,6 +17,55 @@ keywords:
   - Bacillus subtilis
   - thiomarinol
   - isoleucyl-tRNA synthetase
+references:
+  - type: article
+    title: "A Comprehensive, CRISPR-based Functional Analysis of Essential Genes in Bacteria"
+    notes: >-
+      Source of 93 of the 104 profiles in data/raw/, published there as Table S2.
+    authors:
+      - family-names: Peters
+        given-names: Jason M.
+      - family-names: Colavin
+        given-names: Alexandre
+      - family-names: Shi
+        given-names: Handuo
+      - family-names: Czarny
+        given-names: Tomasz L.
+      - family-names: Larson
+        given-names: Matthew H.
+      - family-names: Wong
+        given-names: Spencer
+      - family-names: Hawkins
+        given-names: John S.
+      - family-names: Lu
+        given-names: Candy H. S.
+      - family-names: Koo
+        given-names: Byoung-Mo
+      - family-names: Marta
+        given-names: Elizabeth
+      - family-names: Shiver
+        given-names: Anthony L.
+      - family-names: Whitehead
+        given-names: Evan H.
+      - family-names: Weissman
+        given-names: Jonathan S.
+      - family-names: Brown
+        given-names: Eric D.
+      - family-names: Qi
+        given-names: Lei S.
+      - family-names: Huang
+        given-names: Kerwyn Casey
+      - family-names: Gross
+        given-names: Carol A.
+    journal: "Cell"
+    volume: 165
+    issue: 6
+    start: 1493
+    end: 1506
+    year: 2016
+    doi: "10.1016/j.cell.2016.05.003"
+    url: "https://doi.org/10.1016/j.cell.2016.05.003"
+
 preferred-citation:
   type: article
   title: "Inhibition of Isoleucyl-tRNA Synthetase by the Hybrid Antibiotic Thiomarinol"
